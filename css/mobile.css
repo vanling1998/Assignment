@@ -1,0 +1,17 @@
+/* mobile */
+@media (max-width: 500px) {
+  .sothich-content,
+  .sothich-icon,
+  .list-chungchi,
+  .tenchungchi,
+  .flex-box,
+  .grid-layout,
+  .grid-job-info,
+  .duan {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .flex-duan {
+    flex-direction: column;
+  }
+}

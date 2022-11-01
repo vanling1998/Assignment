@@ -1,0 +1,9 @@
+/* tablets and under */
+@media (min-width: 768px) {
+  .timeline {
+    grid-column-start: 3;
+    grid-column-end: -1;
+    grid-row-start: -1;
+    grid-row-end: 3;
+  }
+}

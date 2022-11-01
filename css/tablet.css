@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .grid-job-info,
+  .list-chungchi,
+  .duan {
+    grid-template-columns: 1fr 1fr;
+  }
+  .tenchungchi {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .hidden-icon {
+    display: none;
+  }
+}
